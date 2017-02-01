@@ -9,6 +9,7 @@ read it and believe it to be valid. You can then build your own docker image
 using the following steps:
 
     git clone https://github.com/Garoth/minimal-bitcoin-unlimited-docker.git
+    cd minimal-bitcoin-unlimited-docker
     docker build -t minimal-bitcoin-unlimited .
     docker image save minimal-bitcoin-unlimited | gzip > minimal-bitcoin-unlimited.tar.gz
 
